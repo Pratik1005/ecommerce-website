@@ -7,13 +7,17 @@
     <title>AssetPoint | Home</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Main menu -->
     <header>
         <div class="header-container">
             <nav class="main-nav">
-                <h1 class="logo">AssetPoint</h1>
+                <a href="index.html">
+                    <h1 class="logo">AssetPoint</h1>
+                </a>
                 <div class="search-bar br-sm">
                     <span class="material-icons">search</span>
                     <input type="text" placeholder="search">
@@ -36,18 +40,68 @@
             </nav>
         </div>
     </header>
+    <!-- main wrapper container -->
     <section class="container">
+        <!-- hero -->
         <div class="hero-ctn">
             <div class="hero-txt">
                 <h1>Discover the best personal finance content through timeless books by top authors</h1>
                 <div class="hero-btn">
-                    <a href="#" class="btn btn-primary">Get Sarted</a>
+                    <a href="#" class="btn btn-primary cta-btn">Get Sarted</a>
                 </div>
             </div>
             <div class="hero-img">
-                <img class="img-responsive" src="./images/saving.svg" alt="hero-image">
+                <img class="img-responsive" src="./images/hero-img.svg" alt="hero-image">
+            </div>
+        </div>
+
+        <!-- categories -->
+        <div class="category-ctn">
+            <h2 class="text-center mg-lg">Featured Categories</h2>
+            <div class="category">
+                <div class="category-single">
+                    <img class="img-responsive" src="./images/general.jpg" alt="category-self-help">
+                    <div class="image-overlay">
+                        <p class="fw-bold">Self Help</p>
+                    </div>
+                </div>
+                <div class="category-single">
+                    <img class="img-responsive" src="./images/stock.jpg" alt="category-stock">
+                    <div class="image-overlay">
+                        <p class="fw-semibold">Stock Investing</p>
+                    </div>
+                </div>
+                <div class="category-single">
+                    <img class="img-responsive" src="./images/real-estate.jpg" alt="category-real-estate">
+                    <div class="image-overlay">
+                        <p class="fw-bold">Real Estate Invetsing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- week book -->
+        <h2 class="text-center mg-lg">Book of the Week</h2>
+        <div class="weekly-book-ctn">
+            <div class="weekly-book-img">
+                <img class="img-responsive" src="./images/book-1.jpg" alt="book-of-the-week">
+            </div>
+            <div class="weekly-book-txt">
+                <h2 class="mg-bottom-md">The Psychology of Money: Timeless lessons on wealth, greed, and happiness</h2>
+                <h3 class="weekly-book-author">by Morgan Housel</h3>
+                <a href="#" class="btn btn-primary cta-btn">Read More</a>
             </div>
         </div>
     </section>
+
+    <footer>
+        <p>Made by Pratik Devle</p>
+        <div class="footer-links">
+            <a href="https://github.com/Pratik1005"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/pratik-devle-296184160"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/DevlePratik"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright">© 2022 AssetPoint</p>
+    </footer>
 </body>
 </html>
