@@ -8,13 +8,13 @@ body {
 .form-ctn {
     margin: 4rem auto 0;
     width: 100%;
-    max-width: 25rem;
+    max-width: 31.25rem;
     box-shadow: var(--light-shadow);   
 }
 
 form {
     background-color: var(--clr-white);
-    padding: 2rem;
+    padding: 2rem 4rem;
     width: 100%; 
     border-radius: 8px;
 }
@@ -56,6 +56,12 @@ input:focus {
     justify-content: center;
     align-items: center;
     color: var(--txt-dark);
+}
+
+/* login */
+label[for=checkbox] a.forgot-pw {
+    padding-left: 3rem;
+    color: #A78BFA;
 }
 
 /* media queries */
