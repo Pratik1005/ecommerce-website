@@ -18,6 +18,11 @@ header {
     background-color: var(--clr-white);
     box-shadow: var(--light-shadow);
     padding: 0.625rem 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .header-container {
