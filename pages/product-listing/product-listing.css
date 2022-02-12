@@ -12,8 +12,10 @@ section.product-list-ctn {
 /* Filters */
 .product-filter {
     padding: 2rem;
-    position: fixed;
+    position: sticky;
+    top: 4rem;
     grid-column: 1/2;
+    height: 100vh;
 }
 
 .product-filter .filter-head {
