@@ -91,3 +91,10 @@ footer .footer-links a{
 footer p.copyright {
     font-size: 0.875rem;
 }
+
+/* card */
+.btn-icon-text-outline {
+    display: flex;
+    justify-content: center;
+    margin: 0.625rem;
+}

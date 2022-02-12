@@ -53,6 +53,35 @@ label {
     cursor: pointer;
 }
 
+/* Product cards */
 .products-ctn {
     background-color: var(--body-bg-color);
+}
+
+.products-ctn {
+    padding: 3rem 4rem;
+}
+
+.products-ctn h3 small {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.products-ctn .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.product-grid > div {
+    background-color: var(--clr-white);
+}
+
+.card-title span.wishlist {
+    color: #FF1B1B;
+}
+
+.card-vertical-ctn a.btn-primary-outline {
+    justify-content: center;
+    margin: 0.625rem;
 }
