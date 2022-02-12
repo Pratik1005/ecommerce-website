@@ -1,0 +1,58 @@
+@import "../common.css";
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+section.product-list-ctn {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+/* Filters */
+.product-filter {
+    padding: 2rem;
+}
+
+.product-filter .filter-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-filter .filter-head span.filter-clear {
+    /* font-size: 1.25rem; */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* range slider */
+.product-filter input {
+    accent-color: var(--clr-primary);
+}
+.filter-price .slider-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-slider {
+    display: flex;
+}
+
+.filter-slider .slider {
+    flex-grow: 1;
+}
+
+/* checkbox & rating*/
+.input-mg-right {
+    margin-right: 0.5rem;
+}
+
+label {
+    cursor: pointer;
+}
+
+.products-ctn {
+    background-color: var(--body-bg-color);
+}
