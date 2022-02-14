@@ -114,3 +114,8 @@ footer p.copyright {
     justify-content: center;
     margin: 0.625rem;
 }
+
+/* wishlist */
+.card-title span.wishlist {
+    color: #FF1B1B;
+}
