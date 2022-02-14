@@ -1,0 +1,26 @@
+@import "../common.css";
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--body-bg-color);
+}
+
+.wishlist-ctn {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+section h2 {
+    padding: 2rem 0;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+    .wishlist-ctn {
+        justify-content: center;
+    }
+}
