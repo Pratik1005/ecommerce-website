@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssetPoint | Cart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="cart-manage.css">
+</head>
+<body>
+    <!-- Main menu -->
+    <header>
+        <div class="header-container">
+            <nav class="main-nav">
+                <a href="../../index.html">
+                    <h1 class="logo">AssetPoint</h1>
+                </a>
+                <div class="search-bar br-sm">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="search">
+                </div>
+                <ul class="right-nav">
+                    <li><a href="../auth/login.html" class="btn btn-primary">Login</a></li>
+                    <li>
+                        <div class="badge-ctn mg-sm">
+                            <span class="material-icons">favorite_border</span>
+                            <span class="badge-icon br-full badge-count fw-bold">2</span>
+                        </div>
+                        </li>
+                    <li>
+                        <div class="badge-ctn mg-sm">
+                            <a href="./cart-manage.html">
+                                <span class="material-icons">shopping_cart</span>
+                                <span class="badge-icon br-full badge-count badge-count fw-bold">3</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h2 class="text-center">Shopping Cart</h2>
+        <div class="cart-mang-ctn">
+            <!-- All items -->
+            <div class="cart-items">
+                <div class="card-horizontal-ctn">
+                    <img src="../../images/book-5.png" alt="product-image" class="docs-hor-card-img">
+                    <div class="horizontal-txt">
+                        <div class="card-title">
+                            <h4>The Richest Man in Babylon</h4>
+                            <span class="material-icons">favorite</span>
+                        </div>
+                        <p class="card-subtitle">by George Clason</p>
+                        <div class="card-pricing">
+                            <p class="card-price fw-bold">₹400</p>
+                            <p class="card-price-cut">₹499</p>
+                            <p class="card-price-discount">save ₹99 (25%)</p>
+                        </div>
+                        <div class="quantity-ctn">
+                            <span class="material-icons br-full">add</span>
+                            <span class="quantity">1</span>
+                            <span class="material-icons br-full">remove</span>
+                        </div>
+                        <a href="#" class="btn btn-icon-text-outline">
+                            Remove from Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="card-horizontal-ctn">
+                    <img src="../../images/book-1.jpg" alt="product-image" class="docs-hor-card-img">
+                    <div class="horizontal-txt">
+                        <div class="card-title">
+                            <h4>The Psychology of Money</h4>
+                            <span class="material-icons">favorite</span>
+                        </div>
+                        <p class="card-subtitle">by Morgan Housel</p>
+                        <div class="card-pricing">
+                            <p class="card-price fw-bold">₹400</p>
+                            <p class="card-price-cut">₹499</p>
+                            <p class="card-price-discount">save ₹99 (25%)</p>
+                        </div>
+                        <div class="quantity-ctn">
+                            <span class="material-icons br-full">add</span>
+                            <span class="quantity">1</span>
+                            <span class="material-icons br-full">remove</span>
+                        </div>
+                        <a href="#" class="btn btn-icon-text-outline">
+                            Remove from Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="card-horizontal-ctn">
+                    <img src="../../images/book-4.jpg" alt="product-image" class="docs-hor-card-img">
+                    <div class="horizontal-txt">
+                        <div class="card-title">
+                            <h4>The Intelligent Investor</h4>
+                            <span class="material-icons">favorite</span>
+                        </div>
+                        <p class="card-subtitle">by Benjamin Graham</p>
+                        <div class="card-pricing">
+                            <p class="card-price fw-bold">₹400</p>
+                            <p class="card-price-cut">₹499</p>
+                            <p class="card-price-discount">save ₹99 (25%)</p>
+                        </div>
+                        <div class="quantity-ctn">
+                            <span class="material-icons br-full">add</span>
+                            <span class="quantity">1</span>
+                            <span class="material-icons br-full">remove</span>
+                        </div>
+                        <a href="#" class="btn btn-icon-text-outline">
+                            Remove from Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing -->
+            <div class="price-ctn br-sm">
+                <p class="coupon"><span class="material-icons">local_offer</span> Apply Coupon</p>
+                <h3 class="text-center text-border">Price Details</h3>
+                <div class="price-row">
+                    <p>Price (3 items)</p>
+                    <p>₹1200</p>
+                </div>
+                <div class="price-row">
+                    <p>Discount</p>
+                    <p>₹100</p>
+                </div>
+                <div class="price-row">
+                    <p>Delivery charges</p>
+                    <p>₹100</p>
+                </div>
+                <div class="price-row">
+                    <p>Coupon discount</p>
+                    <p>₹50</p>
+                </div>
+                <div class="price-row text-border fw-bold">
+                    <p>Total Price</p>
+                    <p>₹1150</p>
+                </div>
+                <div class="order-btn">
+                    <a href="#" class="btn btn-primary text-center">Place Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Made by Pratik Devle</p>
+        <div class="footer-links">
+            <a href="https://github.com/Pratik1005"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/pratik-devle-296184160"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/DevlePratik"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright">© 2022 AssetPoint</p>
+    </footer>
+</body>
+</html>
