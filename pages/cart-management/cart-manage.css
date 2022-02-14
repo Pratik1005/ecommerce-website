@@ -22,7 +22,7 @@ section h2 {
     padding: 2rem;
     margin-bottom: 2rem;
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     box-shadow: var(--light-shadow);
     display: flex;
     flex-direction: column;
@@ -66,12 +66,12 @@ p.coupon span.material-icons {
 .cart-items > div {
     background-color: var(--clr-white);
     margin: 0 1rem 2rem;
-    max-width: 450px;
+    max-width: 28.125rem;
     width: 100%;
 }
 
 .card-horizontal-ctn img {
-    width: 150px;
+    width: 9.375rem;
     height: auto;
 }
 
@@ -100,6 +100,6 @@ p.coupon span.material-icons {
         gap: 1rem;
     }
     .cart-items > div {
-        max-width: 400px;
+        max-width: 25rem;
     }
 }
