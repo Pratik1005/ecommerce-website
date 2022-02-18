@@ -16,6 +16,7 @@ section.product-list-ctn {
     top: 4rem;
     grid-column: 1/2;
     height: 100vh;
+    overflow-y: auto;
 }
 
 .product-filter .filter-head {
