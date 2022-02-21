@@ -64,6 +64,18 @@ label[for=checkbox] a.forgot-pw {
     color: #A78BFA;
 }
 
+/* logout */
+.logout-btns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+button.btn-icon-text-outline {
+    margin: 0;
+    background-color: var(--clr-white);
+}
+
 /* media queries */
 @media screen and (max-width: 800px) {
     nav.main-nav .search-bar {
