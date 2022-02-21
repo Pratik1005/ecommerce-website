@@ -4,7 +4,7 @@
 
 ### Description
 
-This is an ecommerce website made using HTML, CSS and vanilla JS. All the functionality will be added soon using React.
+This is an ecommerce website made using <a href="https://litespeedui.netlify.app/">LiteSpeedUI</a> component library. All the functionality will be added soon using React.
 
 ### Features
 
