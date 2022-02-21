@@ -67,7 +67,6 @@ label[for=checkbox] a.forgot-pw {
 /* logout */
 .logout-btns {
     display: flex;
-    justify-content: space-evenly;
     gap: 1rem;
 }
 
